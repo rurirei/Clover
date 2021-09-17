@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="create vmess" />
+    <item android:title="create vless" />
+    <item android:title="create trojan" />
+    <item android:title="create socks5" />
+    <item android:title="create shadowsocks" />
+    <item android:title="create psiphon pod" />
+    <item android:title="create ssh + sni" />
+    <item android:title="create ssh + sni + TLS" />
+</menu>

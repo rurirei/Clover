@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_control"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.namelessnetx.ang.ui.home.HomeFragment"
+        android:label="NamelessnetR"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.namelessnetx.ang.ui.status.StatusFragment"
+        android:label="status"
+        tools:layout="@layout/status_fragment" />
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.namelessnetx.ang.ui.logs.LogsFragment"
+        android:label="logs"
+        tools:layout="@layout/logs_fragment" />
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.namelessnetx.ang.ui.settings.SettingsFragment"
+        android:label="settings"
+        tools:layout="@layout/settings_fragment" />
+</navigation>

@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MrBhae/Music/Clover/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/MrBhae/Music/Clover/app/src/main/res/layout/recycler_view.xml" value="0.1" />
         <entry key="..\:/Users/MrBhae/Music/NamelessnetX/app/src/main/res/drawable/ic_share.xml" value="0.1440972222222222" />
         <entry key="..\:/Users/MrBhae/Music/NamelessnetX/app/src/main/res/layout/activity_main.xml" value="0.14" />
         <entry key="..\:/Users/MrBhae/Music/NamelessnetX/app/src/main/res/layout/home_fragment.xml" value="0.2" />
@@ -21,5 +23,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -31,5 +31,5 @@ The application in design aiming to be used whenever possible.
 Clover v2ray android client
 ```
 # Android studio Images
-<img src="https://github.com/MrChota/Clover/blob/master/main.png" width="50%"></img>
-<img src="https://github.com/MrChota/Clover/blob/master/card.png" width="50%"></img>
+<img src="https://github.com/MrChota/Clover/blob/master/main.png" width="100%"></img>
+<img src="https://github.com/MrChota/Clover/blob/master/card.png" width="100%"></img>

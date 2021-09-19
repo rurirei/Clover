@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.namelessnetx.ang.ui.home.HomeFragment"
-        android:label="NamelessnetR"
+        android:label="clover"
         tools:layout="@layout/home_fragment" />
     <fragment
         android:id="@+id/navigation_dashboard"

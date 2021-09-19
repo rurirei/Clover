@@ -1,30 +1,37 @@
 package com.namelessnetx.ang.ui.home
 
+import android.content.Context
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import com.namelessnetx.ang.R
+import com.namelessnetx.ang.databinding.HomeFragmentBinding
 
 class HomeFragment : Fragment() {
 
+    private var _binding: HomeFragmentBinding? = null
+
+    private lateinit var mContext: Context
     companion object {
         fun newInstance() = HomeFragment()
     }
 
     private lateinit var viewModel: HomeViewModel
 
+    private val binding get() = _binding!!
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root =inflater.inflate(R.layout.home_fragment, container, false)
+        _binding = HomeFragmentBinding.inflate(inflater, container, false)
+        val root: View = binding.root
+        mContext = requireContext()
 
         //to inform our activity toolbar that we have a menu we shall
         //inform it below here by telling the fragment class to inform
         //its activity class that it has option menus
         setHasOptionsMenu(true)
-
         return root
     }
 

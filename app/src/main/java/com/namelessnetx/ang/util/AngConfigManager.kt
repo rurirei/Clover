@@ -132,7 +132,7 @@ object AngConfigManager {
                         vnext.users[0].security = vmessBean.security
                     } else if (config.configType == EConfigType.VLESS) {
                         vnext.users[0].encryption = vmessBean.security
-//                        vnext.users[0].flow = vmessBean.flow
+                        vnext.users[0].flow = vmessBean.flow
                     }
                 }
                 config.outboundBean?.settings?.servers?.get(0)?.let { server ->
@@ -167,15 +167,15 @@ object AngConfigManager {
                         vmessBean.headerType,
                         vmessBean.path
                     )
-//                    val allowInsecure = if (vmessBean.allowInsecure.isBlank()) {
-//                        settingsStorage?.decodeBool(app.PREF_ALLOW_INSECURE) ?: false
-//                    } else {
-//                        vmessBean.allowInsecure.toBoolean()
-//                    }
+                    val allowInsecure = if (vmessBean.allowInsecure.isBlank()) {
+                        settingsStorage?.decodeBool(app.PREF_ALLOW_INSECURE) ?: false
+                    } else {
+                        vmessBean.allowInsecure.toBoolean()
+                    }
                     streamSetting.populateTlsSettings(
                         vmessBean.streamSecurity, false,
                         sni
-                    )//if (vmessBean.sni.isNotBlank()) vmessBean.sni else sni)
+                    )if (vmessBean.sni.isNotBlank()) vmessBean.sni else sni)
                 }
             }
             val key = MmkvManager.encodeServerConfig(vmessBean.guid, config)

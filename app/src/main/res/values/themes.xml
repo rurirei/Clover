@@ -4,5 +4,8 @@
 
         <item name="android:navigationBarColor">?attr/colorPrimaryDark</item>
         <item name="android:forceDarkAllowed" tools:ignore="NewApi">true</item>
+
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">?attr/colorPrimaryDark</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:ignore="NewApi">@drawable/ic_settng</item>
     </style>
 </resources>

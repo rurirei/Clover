@@ -3,21 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_main"
         android:title="home" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_status"
+        android:icon="@drawable/ic_graph"
         android:title="status" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_logs"
+        android:icon="@drawable/ic_long"
         android:title="loggings" />
     <item
         android:id="@+id/navigation_more"
-        android:icon="@drawable/ic_more"
+        android:icon="@drawable/ic_settng"
         android:title="settings" />
 
 </menu>

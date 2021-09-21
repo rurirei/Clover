@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:weightSum="2"
+            android:weightSum="1"
             android:gravity="center"
             android:padding="8dp"
             android:orientation="horizontal">
@@ -22,12 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="test connection"
-                android:layout_weight="1"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="connected.."
+                android:text="not connected"
                 android:layout_weight="1"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
